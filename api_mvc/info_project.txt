@@ -1,0 +1,12 @@
+## 
+
+REFERENCE: 
+
+https://codeburst.io/build-a-rest-api-for-node-mysql-2018-jwt-6957bcfc7ac9
+
+------------------------------------------------------------------------------------------------
+
+Routing: Express
+ORM/Database : Sequelize
+Authentication : Passport, JWT. 
+The purpose of using JWT (Json Web Token) is for the ease at which it integrates with SPAs( like Angular 2+, React, etc), and Mobile applications.

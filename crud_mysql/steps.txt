@@ -1,0 +1,36 @@
+## Install express
+
+npm install express -save
+
+## Install express-validator module that will be used for form validation
+
+npm install express-validator -save
+
+## Install body-parser module, is used to read HTTP POST data. It’s an express middleware that reads form’s input and store it as javascript object.
+	
+npm install body-parser -save
+
+## Install method-override module, this module let us use HTTP verbs such as PUT or DELETE in places where they are not supported. This module provides different ways of overriding like overriding using header, overriding using query value, or through custom logic. In this CRUD application, we will be using the custom logic of overriding.
+
+npm install method-override -save
+
+## Install express-flash module, flash messages are shown for some time and cleared after being displayed to the user. They are mainly used when we have to redirect to next page and show certain message like success message or error message. Flash messages are store in session.
+
+npm install express-flash -save
+
+## Install cookie-parser & express-session modules. Flash messages are stored in session. So, we also have to install and use cookie-parser & session modules.
+
+npm install cookie-parser -save
+npm install express-session -save
+
+## Install EJS templating engine
+	
+npm install ejs -save
+
+## Install MySQL module
+
+npm install mysql -save
+
+## Install express-myconnection module. Express middleware to provide consistent API for MySQL connection. It can auto close/release mysql connection. Using this module, the connection can be accessed anywhere in router.
+	
+npm install express-myconnection -save

@@ -1,0 +1,14 @@
+REFERENCE: 
+
+https://www.codementor.io/olatundegaruba/nodejs-restful-apis-in-10-minutes-q0sgsfhbd
+
+------------------------------------------------------------------------------------------------
+- project setup:
+npm init -f
+
+- server setup:
+
+npm install --save-dev nodemon
+(nodemon will keep track of changes to our application by watching changed files and automatically restart the server)
+
+npm install express --save

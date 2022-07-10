@@ -1,0 +1,3 @@
+Reference:
+https://medium.com/@dev2605vyas/user-login-registration-and-authentication-using-nodejs-express-and-mysql-7329cae3a17
+----------------------

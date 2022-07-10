@@ -1,0 +1,4 @@
+Reference:
+https://medium.com/@krithix/multi-page-website-with-react-in-2017-f6f2af326526
+
+!This project still didn't run properly, got compile warnings too. Need to fix its libraries or something.

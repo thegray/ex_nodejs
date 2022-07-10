@@ -1,0 +1,28 @@
+1. Create data directory
+-> Go to bin, run "mkdir data"
+
+2. Run database server
+-> Call mongod.exe from mongo installed directory with additional param path to data directory
+-> run ' "C:\Program Files\MongoDB\Server\3.6\bin\mongod.exe" --dbpath c:\node\nodetest1\data\ '
+-> Wait until it says "[initandlisten] waiting for connections on port 27017"
+
+3. Open Mongo Console (to act as a mongo client, CRUD our db)
+-> open another command prompt, call mongo.exe
+-> eq: run ' "C:\Program Files\MongoDB\Server\3.6\bin\mongo.exe" '
+
+4. Create a db
+-> in mongo console, run "use {db_name}"
+-> eq: run "use nodetest1"
+
+5. Add record to collection
+-> in mongo console, run insert command
+-> eq: run 'db.usercollection.insert({ "username" : "testuser1", "email" : "testuser1@testdomain.com" })'
+-> or, newstuff = [{"username" : "testuser2", "email" : "testuser2@testdomain.com" }, { "username" : "testuser3", "email" : "testuser3@testdomain.com"}]
+-> db.usercollection.insert(newstuff)
+-> db here stands for database created before, which is "nodetest1"
+-> usercollection is part of the collection, it is autocreated
+
+6. View record
+-> in mongo console, run "db.usercollection.find().pretty()"
+-> pretty command will give result with linebreaks
+

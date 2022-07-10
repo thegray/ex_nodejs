@@ -1,0 +1,3 @@
+- run the db (see makedata for the details)
+- run: npm start
+- goto address: http://localhost:3000/

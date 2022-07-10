@@ -1,0 +1,9 @@
+{
+  "name": "nodejs101",
+  "version": "0.0.0",
+  "description": "Nodejs101",
+  "main": "app.js",
+  "author": {
+    "name": "paulus.kurnianto"
+  }
+}

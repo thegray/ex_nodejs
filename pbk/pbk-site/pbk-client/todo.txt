@@ -1,0 +1,13 @@
+https://github.com/facebook/create-react-app/blob/master/README.md#popular-alternatives
+
+If you want to do server rendering with React and Node.js, check out Next.js or Razzle. Create React App is agnostic of the backend, and just produces static HTML/JS/CSS bundles.
+
+If your website is mostly static (for example, a portfolio or a blog), consider using Gatsby instead. Unlike Create React App, it pre-renders the website into HTML at the build time.
+
+----------------
+
+https://www.javascriptstuff.com/react-starter-projects/
+
+- Next.js
+- Gatsby
+- Vue

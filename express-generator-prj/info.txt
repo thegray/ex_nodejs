@@ -1,0 +1,6 @@
+PROJECT PLACEHOLDER
+created from express-generator
+------------------------------------
+run the app (linux):
+     $ DEBUG=express-generator-prj:* npm start
+

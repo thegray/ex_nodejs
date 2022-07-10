@@ -1,0 +1,5 @@
+-setup folder :
+npm init -f
+
+-packages : 
+npm install --save bcrypt body-parser cookie-parser express express-session morgan pg sequelize mysql

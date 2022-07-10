@@ -1,0 +1,3 @@
+## practice project node.js express connecting to mongodb
+
+## to generate data, see ../nodetest1/makedata.txt

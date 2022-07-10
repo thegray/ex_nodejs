@@ -1,0 +1,5 @@
+- npm init -f
+
+using express-generator:
+- npm install --save express express-generator mysql <etc>
+- express <project name>
